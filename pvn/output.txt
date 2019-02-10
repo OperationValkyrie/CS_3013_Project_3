@@ -1,0 +1,247 @@
+Running with arguments:
+  Number of Pirates                        : 10
+    Average Costuming Time for Pirate        : 5
+    Average Arrival Time of Pirate           : 10
+  Number of Ninjas                         : 10
+    Average Costuming Time for Ninja         : 5
+    Average Arrival Time of Ninja            : 10
+Pirate:9 is now waiting.
+Pirate:9 is now being serviced by costume team:0 for:2
+Pirate:0 is now waiting.
+Pirate:0 is now being serviced by costume team:1 for:3
+Ninja:13 is now waiting.
+Ninja:14 is now waiting.
+Pirate:5 is now waiting.
+Ninja:11 is now waiting.
+Ninja:18 is now waiting.
+Pirate:9 is now adventuring.
+Pirate:6 is now waiting.
+Pirate:3 is now waiting.
+Ninja:10 is now waiting.
+Pirate:0 wakes up Ninja:13
+Pirate:0 wakes up Ninja:14
+Pirate:0 wakes up Ninja:11
+Pirate:0 wakes up Ninja:18
+Pirate:0 is now adventuring.
+Ninja:11 is now being serviced by costume team:2 for:8
+Ninja:14 is now being serviced by costume team:1 for:3
+Ninja:13 is now being serviced by costume team:0 for:5
+Ninja:18 is now being serviced by costume team:3 for:1
+Ninja:12 is now waiting.
+Ninja:18 is now adventuring.
+Pirate:1 is now waiting.
+Pirate:4 is now waiting.
+Ninja:14 is now adventuring.
+Ninja:16 is now waiting.
+Ninja:14 is now waiting.
+Ninja:19 is now waiting.
+Ninja:13 is now adventuring.
+Pirate:7 is now waiting.
+Pirate:0 is now waiting.
+Ninja:11 wakes up Pirate:5
+Ninja:11 wakes up Pirate:6
+Ninja:11 wakes up Pirate:3
+Ninja:11 wakes up Pirate:1
+Ninja:11 is now adventuring.
+Pirate:5 is now being serviced by costume team:0 for:8
+Pirate:6 is now being serviced by costume team:1 for:1
+Pirate:3 is now being serviced by costume team:2 for:4
+Pirate:1 is now being serviced by costume team:3 for:4
+Pirate:6 is now adventuring.
+Ninja:13 is now waiting.
+Ninja:15 is now waiting.
+Pirate:3 is now adventuring.
+Pirate:1 is now adventuring.
+Pirate:8 is now waiting.
+Ninja:17 is now waiting.
+Pirate:5 wakes up Ninja:10
+Pirate:5 wakes up Ninja:12
+Pirate:5 wakes up Ninja:16
+Pirate:5 wakes up Ninja:14
+Pirate:5 is now adventuring.
+Ninja:10 is now being serviced by costume team:0 for:2
+Ninja:12 is now being serviced by costume team:1 for:11
+Ninja:16 is now being serviced by costume team:2 for:6
+Ninja:14 is now being serviced by costume team:3 for:1
+Ninja:14 is now adventuring.
+Ninja:10 is now adventuring.
+Pirate:2 is now waiting.
+Ninja:16 is now adventuring.
+Ninja:12 wakes up Pirate:4
+Ninja:12 wakes up Pirate:7
+Ninja:12 wakes up Pirate:0
+Ninja:12 wakes up Pirate:8
+Ninja:12 is now adventuring.
+Pirate:7 is now being serviced by costume team:1 for:3
+Pirate:4 is now being serviced by costume team:0 for:1
+Pirate:8 is now being serviced by costume team:3 for:6
+Pirate:0 is now being serviced by costume team:2 for:1
+Ninja:14 is now waiting.
+Pirate:4 is now adventuring.
+Pirate:0 is now adventuring.
+Pirate:7 is now adventuring.
+Pirate:3 is now waiting.
+Pirate:8 wakes up Ninja:19
+Pirate:8 wakes up Ninja:13
+Pirate:8 wakes up Ninja:15
+Pirate:8 wakes up Ninja:17
+Pirate:8 is now adventuring.
+Ninja:15 is now being serviced by costume team:2 for:2
+Ninja:13 is now being serviced by costume team:1 for:4
+Ninja:17 is now being serviced by costume team:3 for:5
+Ninja:19 is now being serviced by costume team:0 for:3
+Ninja:15 is now adventuring.
+Pirate:7 is now waiting.
+Ninja:19 is now adventuring.
+Ninja:13 is now adventuring.
+Ninja:17 wakes up Pirate:2
+Ninja:17 wakes up Pirate:3
+Ninja:17 wakes up Pirate:7
+Ninja:17 is now adventuring.
+Pirate:2 is now being serviced by costume team:0 for:5
+Pirate:7 is now being serviced by costume team:2 for:3
+Pirate:3 is now being serviced by costume team:1 for:4
+Pirate:7 is now adventuring.
+Pirate:3 is now adventuring.
+Pirate:2 wakes up Ninja:14
+Pirate:2 is now adventuring.
+Ninja:14 is now being serviced by costume team:0 for:1
+Ninja:14 is now adventuring.
+== == == == == == == ==
+Pirate:0 visted 2 times
+  Visit:0
+    Waiting Time        :0
+    Service Time        :3
+  Visit:1
+    Waiting Time        :21
+    Service Time        :1
+  Gold owned            :4
+Pirate:1 visted 1 times
+  Visit:0
+    Waiting Time        :6
+    Service Time        :4
+  Gold owned            :4
+Pirate:2 visted 1 times
+  Visit:0
+    Waiting Time        :19
+    Service Time        :5
+  Gold owned            :5
+Pirate:3 visted 2 times
+  Visit:0
+    Waiting Time        :8
+    Service Time        :4
+  Visit:1
+    Waiting Time        :7
+    Service Time        :4
+  Gold owned            :8
+Pirate:4 visted 1 times
+  Visit:0
+    Waiting Time        :24
+    Service Time        :1
+  Gold owned            :1
+Pirate:5 visted 1 times
+  Visit:0
+    Waiting Time        :9
+    Service Time        :8
+  Gold owned            :8
+Pirate:6 visted 1 times
+  Visit:0
+    Waiting Time        :8
+    Service Time        :1
+  Gold owned            :1
+Pirate:7 visted 2 times
+  Visit:0
+    Waiting Time        :21
+    Service Time        :3
+  Visit:1
+    Waiting Time        :2
+    Service Time        :3
+  Gold owned            :6
+Pirate:8 visted 1 times
+  Visit:0
+    Waiting Time        :14
+    Service Time        :6
+  Gold owned            :6
+Pirate:9 visted 1 times
+  Visit:0
+    Waiting Time        :0
+    Service Time        :2
+  Gold owned            :2
+Ninja:10 visted 1 times
+  Visit:0
+    Waiting Time        :16
+    Service Time        :2
+  Gold owned            :2
+Ninja:11 visted 1 times
+  Visit:0
+    Waiting Time        :1
+    Service Time        :8
+  Gold owned            :8
+Ninja:12 visted 1 times
+  Visit:0
+    Waiting Time        :15
+    Service Time        :11
+  Gold owned            :11
+Ninja:13 visted 2 times
+  Visit:0
+    Waiting Time        :2
+    Service Time        :5
+  Visit:1
+    Waiting Time        :24
+    Service Time        :4
+  Gold owned            :9
+Ninja:14 visted 3 times
+  Visit:0
+    Waiting Time        :2
+    Service Time        :3
+  Visit:1
+    Waiting Time        :12
+    Service Time        :1
+  Visit:2
+    Waiting Time        :15
+    Service Time        :1
+  Gold owned            :5
+Ninja:15 visted 1 times
+  Visit:0
+    Waiting Time        :21
+    Service Time        :2
+  Gold owned            :2
+Ninja:16 visted 1 times
+  Visit:0
+    Waiting Time        :12
+    Service Time        :6
+  Gold owned            :6
+Ninja:17 visted 1 times
+  Visit:0
+    Waiting Time        :17
+    Service Time        :5
+  Gold owned            :5
+Ninja:18 visted 1 times
+  Visit:0
+    Waiting Time        :1
+    Service Time        :1
+  Gold owned            :1
+Ninja:19 visted 1 times
+  Visit:0
+    Waiting Time        :28
+    Service Time        :3
+  Gold owned            :3
+Total Gold Owned:97
+== == == == == == == ==
+Costume Team:0
+  Total Service Time  :27
+  Total Waiting Time  :21
+Costume Team:1
+  Total Service Time  :29
+  Total Waiting Time  :19
+Costume Team:2
+  Total Service Time  :24
+  Total Waiting Time  :24
+Costume Team:3
+  Total Service Time  :17
+  Total Waiting Time  :31
+== == == == == == == ==
+Total Revenue       :97
+Gold per Visit      :3.730769
+Average Queue Length:6.692308
+Total Profit        :77

@@ -1,0 +1,33 @@
+Jonathan Chang
+CS 3013
+Project 3
+
+Pirates vs Ninjas
+
+The algorithm for a customer goes roughly as such
+If a customer arrives and sees that the flag is not set or
+that the flag is set to thier own type, it will check to see
+if there are open costume teams. If there are open ones, get serviced
+else wait to be woken up. If the flag is to the other type, then just wait.
+
+When a customer leaves it checks who has the lowest ticket in line
+and is that customer is of the same type, let them in. If the 
+cusotmer is of the other type, it checks if the costume teams are all free.
+If there is nobody else in, the customer will wake customers of the other type and
+let them in. If there are others being serviced, nobody is woken.
+
+This algorithm tends to lead to bursts of activity will periods wait
+the other type is waiting for the despartment ot empty. It also ensures
+that more time is not wasted if the first and seoncd customers in line are of
+different types. By still putting in the first customer's type, it ensures
+that the customer teams will be used to a greater effeciency. This also
+does not deprive the other type since after a customer reaches the front 
+of the queue it is guaranteed to go in next.
+
+In the output.txt, this burst behaviour can be observed on lines 26, 46, 75
+89, and 101. Two downsides of this algorithm are that queues tend to long,
+avearge of 6.69 and that wait times are either very low or very high
+depending on when in the alternating cycle the customer arrives. On the other hand,
+three of the four costume teams are servicing for the more time than they are waiting.
+Furthermore, none of the customers waiting time went over 30 min and 
+neither side was starved.
