@@ -326,7 +326,7 @@ int freeCostumeTeam() {
 
 /**
  * Gets a normal distribution of the given average using the 
- * Box-Muller Transformation. Set to allows return a nubmer greater than 0
+ * Box-Muller Transformation. Set to always return a nubmer greater than 0
  * @param avearge The average to compute around
  * @returns the normal distribution number
  */
@@ -335,9 +335,9 @@ int getNormal(int average) {
     float b = drand48();
     float c = fabs(sqrt(-2 * log(a)) * cos( 2 * acos(-1) * b));
     int result = (int) round(average * c);
-    if(result <= 0) {
+    /*if(result <= 0) {
         result = 1;
-    }
+    }*/
     return result;
 }
 
