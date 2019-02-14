@@ -24,6 +24,7 @@ that the customer teams will be used to a greater effeciency. This also
 does not deprive the other type since after a customer reaches the front 
 of the queue it is guaranteed to go in next.
 
+Testing:
 In the output.txt, this burst behaviour can be observed on lines 26, 46, 75
 89, and 101. Two downsides of this algorithm are that queues tend to long,
 avearge of 6.69 and that wait times are either very low or very high

@@ -1,0 +1,81 @@
+North Cars:
+  Car: 3 going straight
+  Car: 7 going straight
+  Car:10 going right
+  Car:13 going right
+  Car:14 going right
+  Car:15 going left
+  Car:16 going straight
+  Car:18 going left
+South Cars:
+  Car: 0 going right
+  Car: 2 going straight
+West Cars:
+  Car: 4 going left
+  Car: 6 going straight
+  Car:11 going straight
+East Cars:
+  Car: 1 going straight
+  Car: 5 going right
+  Car: 8 going straight
+  Car: 9 going left
+  Car:12 going right
+  Car:17 going right
+  Car:19 going straight
+Car: 4 moves from  west to    SW
+Car: 3 moves from north to    NW
+Car: 1 moves from  east to    NE
+Car: 4 moves from    SW to    SE
+Car: 1 moves from    NE to    NW
+Car: 3 moves from    NW to    SW
+Car: 4 moves from    SE to    NE
+Car: 1 moves from    NW to  west
+Car: 7 moves from north to    NW
+Car: 6 moves from  west to    SW
+Car: 3 moves from    SW to south
+Car: 6 moves from    SW to    SE
+Car: 4 moves from    NE to north
+Car: 5 moves from  east to    NE
+Car: 7 moves from    NW to    SW
+Car:10 moves from north to    NW
+Car: 6 moves from    SE to  east
+Car: 5 moves from    NE to north
+Car: 8 moves from  east to    NE
+Car:10 moves from    NW to  west
+Car:13 moves from north to    NW
+Car: 7 moves from    SW to south
+Car:11 moves from  west to    SW
+Car:11 moves from    SW to    SE
+Car:13 moves from    NW to  west
+Car:14 moves from north to    NW
+Car:14 moves from    NW to  west
+Car:15 moves from north to    NW
+Car:11 moves from    SE to  east
+Car: 0 moves from south to    SE
+Car:15 moves from    NW to    SW
+Car:16 moves from north to    NW
+Car: 0 moves from    SE to  east
+Car:15 moves from    SW to    SE
+Car:16 moves from    NW to    SW
+Car: 8 moves from    NE to    NW
+Car: 9 moves from  east to    NE
+Car: 8 moves from    NW to  west
+Car:16 moves from    SW to south
+Car:18 moves from north to    NW
+Car:15 moves from    SE to  east
+Car: 2 moves from south to    SE
+Car:18 moves from    NW to    SW
+Car: 9 moves from    NE to    NW
+Car:12 moves from  east to    NE
+Car:12 moves from    NE to north
+Car: 2 moves from    SE to    NE
+Car:18 moves from    SW to    SE
+Car: 9 moves from    NW to    SW
+Car:18 moves from    SE to  east
+Car: 9 moves from    SW to south
+Car: 2 moves from    NE to north
+Car:17 moves from  east to    NE
+Car:17 moves from    NE to north
+Car:19 moves from  east to    NE
+Car:19 moves from    NE to    NW
+Car:19 moves from    NW to  west

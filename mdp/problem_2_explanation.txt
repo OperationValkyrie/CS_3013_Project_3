@@ -4,7 +4,7 @@ Project 3
 
 Massachusetts Driver Problem
 
-Phase 1
+Phase 1:
 Given the apporach that the first car who arrives gets to use the intersection
 until they are completed, this approach would have a car thread lock 
 the mutex and then proceed to follow their direction. They would
@@ -12,7 +12,7 @@ only release the mutex after leaving. The problem with this
 approach is that there a lack of parrellism and threrefore slow and 
 not effecient.
 
-Phase 2
+Phase 2:
 If every driver attempts to use the intersection and only stops
 if the quardent they want is filled, this possibliy produces
 a deadlock if four cars come from each direction and all want to 
@@ -20,3 +20,30 @@ make a left turn. It creates a circular deadlock. The solution to this
 would be to check the number of open slots of the intersection before
 entering. If a car wants to make a left and there is only one open slots
 then just wait until a car clears its first quardent. (and run another check)
+
+Solution:
+Before thier first move, cars first check that they are at the head of their queue and
+that there are at least two free spaces open (prevents deadlocking). After that
+it will check to make sure that the space where it wants to move is clear. If
+so, move there, update the whiteboard, and broadcast of the space just left. There
+is also a 1 sec sleep after a car makes a move to allow the scheduler to move
+other cars. When cars reach their destination, they broadcast all
+spaces - this is due to the rare condition that a car who waits
+because there were only one open space may not get a broadcast from that
+space. (2 cars going going north to south in NW and SW and 1 car
+going from east to north in NE. If a car is waiting on SE, there 
+will never be a signal otherwise).
+
+Testing:
+This program was tested will a seed on 100 and literal use of printfs.
+The inital print of the cars in queue and their desired directions can 
+be traced in the output below that. For instance, car 4 is the first
+west car and so if the first west car to move into the intersection (line 25).
+Its movements on lines 28, 31, and 37 show is lefthand movement and by comparing
+the movement of the other cars, it can be determined that no two cars are in the
+same space at one time. This process can be repeated for all the other cars.
+
+Fairness was more difficulat to determine as the order of the broadcast wakup
+plays a large role in the process. However, rough examination shows that none of the
+sides were straved until the end and that cars 17, 18 ,and 19 were the 
+last cars - befiting of their positions in the queue.
