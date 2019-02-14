@@ -34,7 +34,10 @@ int main(int argc, char **argv) {
         return -1;
     }
 
-    srand48(100);
+    struct timeval tv;
+    gettimeofday(&tv, NULL);
+
+    srand48(tv.tv_usec);
     flag = -1;
     currentTicket = 0;
     globalStart = getCurrentMilli();

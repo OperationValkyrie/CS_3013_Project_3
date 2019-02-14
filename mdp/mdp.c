@@ -9,12 +9,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <sys/time.h>
 #include <unistd.h>
 
 #include "mdp.h"
 
 int main(int argc, char **argv) {
-    srand48(100);
+    struct timeval tv;
+    gettimeofday(&tv, NULL);
+
+    srand48(tv.tv_usec);
     initalizeCars();
     printStart();
 
